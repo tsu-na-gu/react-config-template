@@ -24,6 +24,7 @@ module.exports = {
     },
   },
   rules: {
-    // Add your own rules here to override ones from the extended configs.
+    '@typescript-eslint/no-explicit-any': 'error',
+    '@typescript-eslint/no-unsafe-argument': 'error',
   },
 };
