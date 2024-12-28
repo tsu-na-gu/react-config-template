@@ -35,6 +35,7 @@ export default [
       'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
       '@typescript-eslint/no-explicit-any': 'error',
       '@typescript-eslint/no-unnecessary-type-constraint': 'error',
+      'react/react-in-jsx-scope': 'off',
     },
     settings: {
       react: {
